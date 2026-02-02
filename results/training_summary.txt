@@ -1,0 +1,30 @@
+======================================================================
+TRAINING SUMMARY: Rumah Gadang vs Joglo Classification
+======================================================================
+
+DATASET:
+  Total images: 1475
+  Train: 1032
+  Validation: 221
+  Test: 222
+  Classes: ['gadang', 'joglo']
+
+MODEL:
+  Architecture: MobileNetV2 + Custom Head
+  Input size: (224, 224)
+  Total parameters: 2,422,210
+
+TRAINING:
+  Epochs: 20
+  Batch size: 32
+  Learning rate: 0.001
+  Class weights: {0: 0.9961389961389961, 1: 1.0038910505836576}
+
+RESULTS:
+  Test Accuracy: 0.9775 (97.75%)
+  Test Loss: 0.0648
+
+FILES:
+  Best model: models\best_model.keras
+  Final model: models\final_model1.keras
+  Results: results/
