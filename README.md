@@ -90,7 +90,7 @@ Expected accuracy: **85–95%**
 
 | Method | Accuracy |
 |--------|----------|
-| Baseline CNN | ~85% |
+| Baseline CNN | ~54% |
 | CNN + Augmentation | ~92% |
 | Transfer Learning | **~99%** |
 
